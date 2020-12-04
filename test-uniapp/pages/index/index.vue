@@ -1,3 +1,4 @@
+<!--修改第一次-->
 <template>
 	<view>
     <ling-navbar :title="title" :background="background"></ling-navbar>
