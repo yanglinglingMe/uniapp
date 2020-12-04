@@ -11,6 +11,13 @@
 			}
 		},
 		{
+			"path": "pages/index/ll-setting/index",
+			"style": {
+				"navigationBarTitleText": "标签管理",
+				"navigationStyle": "custom"
+			}
+		},
+		{
 			"path": "pages/detail/index",
 			"style": {
 				"navigationBarTitleText": "详情",
@@ -39,6 +46,20 @@
 			}
 		}
 	],
+//	"subPackages": [//分包 Eg：
+//		{
+//			"root": "pages/addApplication",
+//			"pages": [
+//				{
+//					"path": "index",
+//					"style": {
+//						"navigationBarTitleText": "新建请假",
+//						"navigationStyle": "custom"
+//					}
+//				}
+//			]
+//		}
+//	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

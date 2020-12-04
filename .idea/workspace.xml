@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6535c001-dcf3-4bcb-9c6e-e579f0782e21" name="Default Changelist" comment="Merge branch 'main' into yll-master&#10;&#10;# Conflicts:&#10;#&#9;test-uniapp/pages/index/index.vue">
+      <change afterPath="$PROJECT_DIR$/test-uniapp/api/main-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-uniapp/api/mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-uniapp/pages/index/ll-setting/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-uniapp/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/test-uniapp/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-uniapp/pages/attention/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/test-uniapp/pages/attention/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-uniapp/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/test-uniapp/pages/index/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-uniapp/pages/mine/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/test-uniapp/pages/mine/index.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kfmDrAbGNTUqsabsuzMSSJa3SS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6535c001-dcf3-4bcb-9c6e-e579f0782e21" name="Default Changelist" comment="" />
+      <created>1606099903675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606099903675</updated>
+      <workItem from="1606099904756" duration="7895000" />
+      <workItem from="1606199297525" duration="3834000" />
+      <workItem from="1606295153842" duration="1980000" />
+      <workItem from="1606485538635" duration="2624000" />
+      <workItem from="1606530159612" duration="5224000" />
+      <workItem from="1606699012324" duration="375000" />
+      <workItem from="1606785285304" duration="533000" />
+      <workItem from="1606871669599" duration="209000" />
+      <workItem from="1606887770836" duration="11000" />
+      <workItem from="1606887841783" duration="99000" />
+      <workItem from="1606887968948" duration="30000" />
+      <workItem from="1606888030893" duration="13000" />
+      <workItem from="1606888091218" duration="16000" />
+      <workItem from="1607060461927" duration="2982000" />
+    </task>
+    <task id="LOCAL-00001" summary="标签设置页面">
+      <created>1607060593128</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607060593128</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改第一次版本">
+      <created>1607061989804</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607061989804</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改第一次版本">
+      <created>1607062566371</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607062566371</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="标签设置页面" />
+    <MESSAGE value="修改第一次版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改第一次版本" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="282" y="23" width="869" height="799" key="CommitChangelistDialog2" timestamp="1607063092803">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="282" y="46" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1606203453007" />
+    <state x="282" y="23" width="869" height="799" key="CommitChangelistDialog2/0.23.1440.799@0.23.1440.799" timestamp="1607063092803" />
+    <state x="166" y="92" key="MergeDialog" timestamp="1607062046176">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="166" y="92" key="MergeDialog/0.23.1440.799@0.23.1440.799" timestamp="1607062046176" />
+    <state x="380" y="192" key="MultipleFileMergeDialog" timestamp="1607062046214">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="380" y="192" key="MultipleFileMergeDialog/0.23.1440.799@0.23.1440.799" timestamp="1607062046214" />
+    <state x="624" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607062429439">
+      <screen x="0" y="23" width="1440" height="799" />
+    </state>
+    <state x="624" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.799@0.23.1440.799" timestamp="1607062429439" />
+    <state x="422" y="182" width="697" height="534" key="find.popup" timestamp="1606486516696">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="422" y="182" width="697" height="534" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1606486516696" />
+    <state x="422" y="185" width="596" height="474" key="find.popup/0.23.1440.799@0.23.1440.799" timestamp="1606119368094" />
+  </component>
+</project>
