@@ -1,5 +1,6 @@
 <template>
-	<view>
+  <!--修改第一次-->
+  <view>
     <ling-navbar :title="title" :background="background"></ling-navbar>
     <view class="u-top">
       <u-search class="u-padding-10" placeholder="uniapp、vue" v-model="keyword" :animation="true" :clearabled="true" shape="round"></u-search>
