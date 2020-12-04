@@ -6,11 +6,11 @@
     </view>
     <view class="u-tab-setting u-flex u-row-between ling-border-b-f5f5f5">
       <view>
-        <u-tabs-swiper ref="uTabs" :list="list" :current="current" @change="tabsChange" :is-scroll="false"
+        <u-tabs-swiper ref="uTabs" :list="navList" :current="current" @change="tabsChange" :is-scroll="false"
                        swiperWidth="750" :show-bar="false"></u-tabs-swiper>
       </view>
       <view class="ling-w-10-p ling-border-l-f5f5f5 u-p-l-10">
-        <u-icon name="setting" size="48"></u-icon>
+        <u-icon name="setting" size="48" @click="handleSet"></u-icon>
       </view>
     </view>
     <view>
@@ -73,6 +73,7 @@
 
 <script>
 import lingNavbar from '../../components/navbar/ling-navbar'
+import {apiNewList} from '../../api/mock'
 	export default {
     components:{
       lingNavbar
@@ -84,7 +85,7 @@ import lingNavbar from '../../components/navbar/ling-navbar'
           backgroundColor:'#f3f4f6'
         },
         keyword: '',
-        list: [{
+        navList: [{
           name: '全部'
         }, {
           name: '职场生活'
@@ -93,17 +94,62 @@ import lingNavbar from '../../components/navbar/ling-navbar'
         }, {
           name: '人工智能'
       }],
+        listData:[],
         // 因为内部的滑动机制限制，请将tabs组件和swiper组件的current用不同变量赋值
         current: 0, // tabs组件的current值，表示当前活动的tab选项
         swiperCurrent: 0, // swiper组件的current值，表示当前那个swiper-item是活动的
         tabs:[1,2,3]
       }
 		},
-
-		onLoad() {
-      console.log(1333)
-		},
 		methods: {
+      /***
+       * 初始化数据
+       * ***/
+      async init() {
+        this.listData = await apiNewList(2,10)
+        console.log(this.listData)
+      },
+      /***
+       * 标签管理
+       * ***/
+      handleSet() {
+        console.log(23)
+        this.$u.route({
+          url: 'pages/index/ll-setting/index',
+          params:{
+            name:this.title
+          }
+        })
+      },
+      /***
+       * tabs通知swiper切换
+       * ***/
+      tabsChange(index) {
+        this.swiperCurrent = index;
+      },
+      /***
+       * swiper-item左右移动，通知tabs的滑块跟随移动
+       * ***/
+      transition(e) {
+        let dx = e.detail.dx;
+        this.$refs.uTabs.setDx(dx);
+      },
+      /***
+       * 由于swiper的内部机制问题，快速切换swiper不会触发dx的连续变化，需要在结束时重置状态
+       *  swiper滑动结束，分别设置tabs和swiper的状态
+       * ***/
+      animationfinish(e) {
+        let current = e.detail.current;
+        this.$refs.uTabs.setFinishCurrent(current);
+        this.swiperCurrent = current;
+        this.current = current;
+      },
+      /***
+       * scroll-view到底部加载更多
+       * ***/
+      onreachBottom() {
+
+      },
 		  /***
        * 去详情
        * ***/
@@ -116,7 +162,10 @@ import lingNavbar from '../../components/navbar/ling-navbar'
         })
       }
 
-		}
+		},
+    onLoad() {
+      this.init()
+    },
 	}
 </script>
 
