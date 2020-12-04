@@ -28,9 +28,6 @@
         <u-td class="u-td">男</u-td>
       </u-tr>
     </u-table>
-	wode
-    {{comment}}
-
   </view>
 </template>
 
@@ -61,7 +58,11 @@ import lingNavbar from '../../components/navbar/ling-navbar'
       },
       undo() {
         this.editorCtx.undo()
+      },
+      editorChange: function(e){
+        this.gongsijieshao = e.detail.html
       }
+
     },
     onLoad() {
       this.comment = this.vuex_comment_id
@@ -92,15 +93,5 @@ import lingNavbar from '../../components/navbar/ling-navbar'
 }
 .container {
   padding: 10px;
-}
-
-#editor {
-  width: 100%;
-  height: 300px;
-  background-color: #CCCCCC;
-}
-
-button {
-  margin-top: 10px;
 }
 </style>
