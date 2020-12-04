@@ -1,4 +1,7 @@
 <template>
+<<<<<<< HEAD
+  <!--修改第一次-->
+  <view>
 	<view>
     <ling-navbar :title="title" :background="background"></ling-navbar>
     <view class="u-top">
@@ -6,6 +9,11 @@
     </view>
     <view class="u-tab-setting u-flex u-row-between ling-border-b-f5f5f5">
       <view>
+        <u-tabs-swiper ref="uTabs" :list="list" :current="current" @change="tabsChange" :is-scroll="false"
+                       swiperWidth="750" :show-bar="false"></u-tabs-swiper>
+      </view>
+      <view class="ling-w-10-p ling-border-l-f5f5f5 u-p-l-10">
+        <u-icon name="setting" size="48"></u-icon>
         <u-tabs-swiper ref="uTabs" :list="navList" :current="current" @change="tabsChange" :is-scroll="false"
                        swiperWidth="750" :show-bar="false"></u-tabs-swiper>
       </view>
@@ -73,7 +81,10 @@
 
 <script>
 import lingNavbar from '../../components/navbar/ling-navbar'
+<<<<<<< HEAD
+=======
 import {apiNewList} from '../../api/mock'
+>>>>>>> main
 	export default {
     components:{
       lingNavbar
@@ -85,7 +96,11 @@ import {apiNewList} from '../../api/mock'
           backgroundColor:'#f3f4f6'
         },
         keyword: '',
+<<<<<<< HEAD
+        list: [{
+=======
         navList: [{
+>>>>>>> main
           name: '全部'
         }, {
           name: '职场生活'
@@ -94,13 +109,23 @@ import {apiNewList} from '../../api/mock'
         }, {
           name: '人工智能'
       }],
+<<<<<<< HEAD
+=======
         listData:[],
+>>>>>>> main
         // 因为内部的滑动机制限制，请将tabs组件和swiper组件的current用不同变量赋值
         current: 0, // tabs组件的current值，表示当前活动的tab选项
         swiperCurrent: 0, // swiper组件的current值，表示当前那个swiper-item是活动的
         tabs:[1,2,3]
       }
 		},
+<<<<<<< HEAD
+
+		onLoad() {
+      console.log(1333)
+		},
+		methods: {
+=======
 		methods: {
       /***
        * 初始化数据
@@ -150,6 +175,7 @@ import {apiNewList} from '../../api/mock'
       onreachBottom() {
 
       },
+>>>>>>> main
 		  /***
        * 去详情
        * ***/
@@ -162,10 +188,14 @@ import {apiNewList} from '../../api/mock'
         })
       }
 
+<<<<<<< HEAD
+		}
+=======
 		},
     onLoad() {
       this.init()
     },
+>>>>>>> main
 	}
 </script>
 
